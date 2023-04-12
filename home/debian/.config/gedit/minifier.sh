@@ -11,12 +11,16 @@ cd $filepath
 cd ../dist
 filename="${GEDIT_CURRENT_DOCUMENT_NAME%.*}"
 if [ $1 = "css" ]; then
-    cd css
+    if [ -d "./css" ]; then
+        cd css
+    fi
     curl -X POST -s --data-urlencode "input@$filepath/$filename.css" https://www.toptal.com/developers/cssminifier/api/raw > "$filename.min.css"
     file_type "css"
 else
     if [ $1 = "scss" ]; then
-        cd css
+        if [ -d "./css" ]; then
+            cd css
+        fi
         if [ $filename = "all" ]; then
             sass "$filepath/all.scss" "all.min.css" --style compressed
         else
@@ -25,7 +29,9 @@ else
         fi
     else
         if [ $1 = "js" ]; then
-            cd js
+            if [ -d "./js" ]; then
+                cd js
+            fi
             curl -X POST -s --data-urlencode "input@$filepath/$filename.js" https://www.toptal.com/developers/javascript-minifier/api/raw > "$filename.min.js"
             file_type "js"
         fi
