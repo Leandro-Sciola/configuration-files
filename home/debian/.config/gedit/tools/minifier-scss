@@ -1,11 +1,11 @@
 #!/bin/sh
 # [Gedit Tool]
 # Name=Minifier
-# Languages=scss
 # Input=nothing
 # Output=output-panel
 # Applicability=all
 # Save-files=nothing
+# Languages=scss
 # Shortcut=F12
 
-/home/debian/.config/gedit/minifier.sh scss
+"$HOME"/.config/gedit/minifier.sh scss
