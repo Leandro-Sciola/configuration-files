@@ -1,11 +1,11 @@
 #!/bin/sh
 # [Gedit Tool]
 # Name=Minifier
-# Languages=js
 # Input=nothing
 # Output=output-panel
 # Applicability=all
 # Save-files=nothing
+# Languages=js
 # Shortcut=F12
 
-/home/debian/.config/gedit/minifier.sh js
+"$HOME"/.config/gedit/minifier.sh js
