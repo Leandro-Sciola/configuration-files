@@ -7,14 +7,13 @@ file_type() {
     done
 }
 filepath=$GEDIT_CURRENT_DOCUMENT_DIR
-cd "$filepath"
+filename="${GEDIT_CURRENT_DOCUMENT_NAME%.*}"
 for path in "." ".." "../.." "../../.." "../../../.." "../../../../.."; do
     if [ -d "$path/dist" ]; then
         cd "$path/dist"
         break
     fi
 done
-filename="${GEDIT_CURRENT_DOCUMENT_NAME%.*}"
 if [ $1 = "css" ]; then
     if [ -d "./css" ]; then
         cd css
