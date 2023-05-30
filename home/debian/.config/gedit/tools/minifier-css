@@ -8,4 +8,4 @@
 # Languages=css
 # Shortcut=F12
 
-/home/debian/.config/gedit/minifier.sh css
+"$HOME"/.config/gedit/minifier.sh css
