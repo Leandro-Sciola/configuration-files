@@ -5,15 +5,23 @@ file_type() {
     for i in $list; do
         cat $i >> "all.min.$1"
     done
+    echo "Output: "$(pwd)"/all.min.$1"
+    echo "Output: "$(pwd)"/$filename.min.$1"
 }
 filepath=$GEDIT_CURRENT_DOCUMENT_DIR
 filename="${GEDIT_CURRENT_DOCUMENT_NAME%.*}"
+src_dir=$filepath
+current_dir=$(pwd)
 for path in "." ".." "../.." "../../.." "../../../.." "../../../../.."; do
     if [ -d "$path/dist" ]; then
         cd "$path/dist"
+        src_dir=""
         break
     fi
 done
+if [ "$current_dir" = "$src_dir" ]; then
+    cd ../
+fi
 if [ $1 = "css" ]; then
     if [ -d "./css" ]; then
         cd css
