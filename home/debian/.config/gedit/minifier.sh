@@ -10,8 +10,7 @@ file_type() {
 }
 filepath=$GEDIT_CURRENT_DOCUMENT_DIR
 filename="${GEDIT_CURRENT_DOCUMENT_NAME%.*}"
-src_dir=$filepath
-current_dir=$(pwd)
+src_dir=${PWD##*/}
 for path in "." ".." "../.." "../../.." "../../../.." "../../../../.."; do
     if [ -d "$path/dist" ]; then
         cd "$path/dist"
@@ -19,7 +18,7 @@ for path in "." ".." "../.." "../../.." "../../../.." "../../../../.."; do
         break
     fi
 done
-if [ "$current_dir" = "$src_dir" ]; then
+if [ "$src_dir" = "src" ]; then
     cd ../
 fi
 if [ $1 = "css" ]; then
