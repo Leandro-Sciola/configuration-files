@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets>
+  <snippet>
+    <tag>revised</tag>
+    <text><![CDATA[revised: '$<1: import time; import locale; locale.setlocale(locale.LC_ALL, 'en_US.UTF-8'); return time.strftime("%A") + ', ' + time.strftime("%B") + ' ' + time.strftime("%d") + 'th, ' + time.strftime("%Y") + ', ' + time.strftime("%H:%M") >'$0]]></text>
+    <description>Twig</description>
+  </snippet>
+  <snippet>
+    <tag>layout</tag>
+    <text><![CDATA[{% include header with {
+    meta: {
+      subtitle: '',
+      subject: '',
+      description: '',
+      keywords: '',
+      revised: ''
+    },
+    css : ['/packages/name/style.min.css']
+  }
+%}
+
+{% include footer with {
+    js : ['/packages/name/script.min.js']
+  }
+%}]]></text>
+    <description>Twig</description>
+  </snippet>
+</snippets>
