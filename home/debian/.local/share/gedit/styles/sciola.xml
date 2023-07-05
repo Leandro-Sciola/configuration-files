@@ -14,13 +14,13 @@
   <style name="secondary-cursor"	foreground="#D3D7CF" />
   <style name="selection"	foreground="#F5F5F5" background="#4b4c53" />
   <style name="text"	foreground="#D3D7CF" background="#040618" />
-  <style name="def:boolean"	foreground="#ff7700" bold="true" />
+  <style name="def:boolean"	foreground="#39d700" bold="true" />
   <style name="def:builtin"	foreground="#6BB88A" bold="true" />
   <style name="def:character"	foreground="#B698E6" />
   <style name="def:comment"	foreground="#7F8182" italic="true" />
   <style name="def:complex"	foreground="#6BB88A" />
   <style name="def:constant"	foreground="#D48645" />
-  <style name="def:decimal"	foreground="#3ad800" />
+  <style name="def:decimal"	foreground="#ff7700" />
   <style name="def:doc-comment-element"	italic="true" />
   <style name="def:error"	foreground="#F0F0F0" background="#C23B22" bold="true" />
   <style name="def:floating-point"	foreground="#D48645" />
