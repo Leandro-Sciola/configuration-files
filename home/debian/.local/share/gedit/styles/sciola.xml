@@ -1,0 +1,70 @@
+<style-scheme name="Sciola" id="sciola" version="1.0">
+  <author>Leandro Sciola</author>
+  <description>Esquema de cor baseado no azul</description>
+
+  <style name="text"	foreground="#ffffff" background="#050719" />
+  <style name="selection"	foreground="#071269" background="#dfebfd" />
+  <style name="cursor"	foreground="#ffffff" />
+  <style name="current-line"	background="#101225" />
+  <style name="line-numbers"	foreground="#ffffff" background="#14244f" />
+  <style name="draw-spaces"	foreground="#777777" />
+  <style name="right-margin"	foreground="#cccccc" background="#cccccc" />
+  <style name="background-pattern"	background="#00213F" />
+  <style name="bracket-match"	foreground="#ffffff" background="#603582" />
+  <style name="bracket-mismatch"	background="#990000" />
+  <style name="search-match"	foreground="#ffffff" background="#00BF8C" />
+  <style name="bookmark"	background="#ffffff" />
+  <style name="def:comment"	foreground="#91abc4" italic="true" />
+  <style name="def:shebang"	foreground="#0088ff" italic="true" />
+  <style name="def:doc-comment-element"	bold="true" />
+  <style name="def:constant"	foreground="#ffee80" />
+  <style name="def:string"	foreground="#3ad900" />
+  <style name="def:special-char"	foreground="#cccccc" />
+  <style name="def:special-constant"	foreground="#ff0044" bold="true" />
+  <style name="def:number"	foreground="#ff0044" />
+  <style name="def:floating-point"	foreground="#ff0044" />
+  <style name="def:boolean"	foreground="#ff0044" />
+  <style name="def:keyword"	foreground="#ebb044" bold="true" />
+  <style name="def:builtin"	foreground="#ff9d00" bold="true" />
+  <style name="def:variable"	foreground="#cccccc" />
+  <style name="def:identifier"	foreground="#56c2ff" />
+  <style name="def:function"	foreground="#cccccc" />
+  <style name="def:statement"	foreground="#ff9d00" />
+  <style name="def:type"	foreground="#80ffbb" />
+  <style name="def:emphasis"	bold="true" />
+  <style name="def:strong-emphasis"	foreground="#ff9d00" />
+  <style name="def:inline-code"	foreground="#cccccc" />
+  <style name="def:insertion"	underline="true" />
+  <style name="def:deletion"	strikethrough="true" />
+  <style name="def:link-text"	foreground="#0088ff" italic="true" />
+  <style name="def:link-symbol"	foreground="#0088ff" italic="true" />
+  <style name="def:link-destination"	underline="true" />
+  <style name="def:heading"	foreground="#80ffbb" />
+  <style name="def:thematic-break"	foreground="#80ffbb" />
+  <style name="def:preformatted-section"	foreground="#cccccc" />
+  <style name="def:list-marker"	foreground="#ff9d00" />
+  <style name="def:error"	foreground="#ffffff" background="#980000" bold="true" />
+  <style name="def:warning"	foreground="#ffffff" background="#ff0044" />
+  <style name="def:note"	foreground="#ffdd00" bold="true" />
+  <style name="def:net-address"	foreground="#80ffbb" underline="true" />
+  <style name="def:preprocessor"	foreground="#cccccc" />
+  <style name="def:underlined"	underline="true" />
+  <style name="c:preprocessor"	foreground="#80ffbb" bold="true" />
+  <style name="c:included-file"	foreground="#3ad900" />
+  <style name="c:common-defines"	foreground="#0088ff" bold="true" />
+  <style name="diff:ignore"	foreground="#777777" />
+  <style name="diff:added-line"	foreground="#ffee80" />
+  <style name="diff:removed-line"	foreground="#3ad900" />
+  <style name="diff:changed-line"	foreground="#ff9d00" />
+  <style name="diff:diff-file"	foreground="#0088ff" bold="true" />
+  <style name="diff:location"	foreground="#0088ff" />
+  <style name="diff:special-case"	foreground="#ff0044" bold="true" />
+  <style name="ruby:module-handler"	foreground="#80ffbb" />
+  <style name="ruby:symbol"	foreground="#ff0044" />
+  <style name="ruby:regex"	foreground="#80ffbb" />
+  <style name="sh:function"	foreground="#ffdd00" />
+  <style name="xml:attribute-name"	foreground="#cccccc" />
+  <style name="xml:element-name"	foreground="#80ffbb" />
+  <style name="xml:entity"	foreground="#ffdd00" />
+  <style name="xml:processing-instruction"	bold="true" />
+</style-scheme>
