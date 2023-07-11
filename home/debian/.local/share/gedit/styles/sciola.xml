@@ -1,19 +1,19 @@
 <style-scheme name="Sciola" id="sciola" version="1.0">
   <author>Leandro Sciola</author>
-  <description>Esquema de cor baseado no azul</description>
+  <description>Esquema de cor customizado</description>
 
   <style name="background-pattern"	background="#191919" />
   <style name="bracket-match"	foreground="#FFFFFF" background="#f66050" />
   <style name="bracket-mismatch"	foreground="#FFFFFF" background="#C23B22" />
-  <style name="current-line"	background="#0f1125" />
+  <style name="current-line"	background="#212121" />
   <style name="cursor"	foreground="#D3D7CF" />
   <style name="draw-spaces"	foreground="#474747" />
-  <style name="line-numbers"	foreground="#f6f5f4" background="#0c1a3e" />
+  <style name="line-numbers"	foreground="#f6f5f4" background="#252525" />
   <style name="right-margin"	foreground="#929292" background="#191919" />
   <style name="search-match"	foreground="#000000" background="#FFE792" />
   <style name="secondary-cursor"	foreground="#D3D7CF" />
-  <style name="selection"	foreground="#F5F5F5" background="#4b4c53" />
-  <style name="text"	foreground="#D3D7CF" background="#040618" />
+  <style name="selection"	foreground="#F5F5F5" background="#353535" />
+  <style name="text"	foreground="#D3D7CF" background="#111111" />
   <style name="def:boolean"	foreground="#39d700" bold="true" />
   <style name="def:builtin"	foreground="#6BB88A" bold="true" />
   <style name="def:character"	foreground="#B698E6" />
